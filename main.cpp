@@ -16,5 +16,15 @@ int main()
 
 	cout << "-----Проверяем-----" << endl;
 
-	cout << "Наименьшее число: ";
+	int result;
+	if (firstNumber < secondNumber)
+	{
+		result = firstNumber;
+	}
+	else {
+		result = secondNumber;
+	}
+
+
+	cout << "Наименьшее число: " << result;
 }
